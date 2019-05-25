@@ -1,0 +1,19 @@
+{
+  "name": "colorful-random-balls",
+  "version": "1.0.0",
+  "description": "Creating random colored balls in Canvas with different speed and directions in ES6",
+  "main": "main.js",
+  "scripts": {
+    "build": "babel src -d public"
+  },
+  "keywords": [
+    "ES6",
+    "Canvas"
+  ],
+  "author": "Vladimir Karatosic",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
