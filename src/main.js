@@ -1,3 +1,5 @@
+"use strict";
+
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
 
@@ -49,7 +51,7 @@ class Ball {
     }
 }
 
-var balls = [];
+const balls = [];
 
 while(balls.length < 25) {
     const size = randomNumber(10, 20);
